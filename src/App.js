@@ -1,6 +1,7 @@
-import "./App.css";
+import "./assests/css/App.css";
+import "./assests/css/slider.css";
 import Header from "./components/header/header.jsx";
-import Slider from "react-input-slider";
+import Toggles from "./components/toggles/toggles.jsx";
 
 function App() {
   return (
@@ -13,8 +14,18 @@ function App() {
             Generate
           </button>
         </div>
-
-        <Slider axis="x" className="length-slider" />
+        <div className="slider">
+          <input
+            className="length-slider"
+            type="range"
+            min="4"
+            max="40"
+            step="1"
+          />
+        </div>
+        <div className="toggle-div">
+          <Toggles />
+        </div>
       </div>
     </div>
   );
