@@ -2,9 +2,16 @@
   width: 98vw;
 }
 
+.slider-label {
+  margin-top: 9vh;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 10vw;
+}
+
 .length-slider {
   width: 80%;
-  margin-top: 20vh;
+  margin-top: 2vh;
   height: 100px;
 }
 

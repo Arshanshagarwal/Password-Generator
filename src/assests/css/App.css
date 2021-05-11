@@ -6,7 +6,7 @@
   margin: 0;
   text-align: center;
   display: block;
-  height: 200vh;
+  height: 100vh;
   width: auto;
   color: white;
   background-color: #20b422;
@@ -49,6 +49,55 @@
   border: none;
 }
 
+.copy-button {
+  background-color: transparent;
+  overflow: hidden;
+  align-self: center;
+  min-width: 60px;
+  min-height: 60px;
+  float: right;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  margin-right: 2vw;
+  border: 1px solid white;
+}
+
+.copy-button:active {
+  border-style: outset;
+  background-color: white;
+  color: #20b422;
+  border: none;
+}
+
+.password-strength {
+  font-size: 24px;
+  text-align: left;
+  margin-top: 2vh;
+  margin-left: 10vw;
+  opacity: 0.6;
+}
+
 .toggle-div {
   margin-top: 10vh;
+}
+
+.footer {
+  margin-top: 15vh;
+}
+
+.footer-link {
+  text-decoration: none;
+
+  color: white;
+}
+
+.footer-link:hover {
+  background-color: white;
+  color: #20b422;
+}
+
+.heart:hover {
+  color: red;
 }
