@@ -1,6 +1,6 @@
 # Project Description
 
-This is a Password Generator, an web app which is build on ReactJS and it helps you generate unique and strong passwords.
+This is a Password Generator, an web app which is build on ReactJS which it helps you generate unique and strong passwords.
 
 # How to Run the code?
 
